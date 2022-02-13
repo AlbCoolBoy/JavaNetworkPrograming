@@ -12,7 +12,7 @@ public class SendDemo {
         //关闭发送端
         DatagramSocket datagramSocket=new DatagramSocket();
         byte[] bytes="hello,world".getBytes();
-        InetAddress address=InetAddress.getByName("192.168.0.104");
+        InetAddress address=InetAddress.getByName("192.168.0.101");
         int port=10086;
         DatagramPacket dp=new DatagramPacket(bytes, bytes.length,address,port);
 

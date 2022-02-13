@@ -29,7 +29,8 @@ public class ClientDemo {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+        //只要记住outputstream流是用来像服务器发送数据的
+        //inputstream流是服务器端接收客户端数据的就行
 
     }
 }
